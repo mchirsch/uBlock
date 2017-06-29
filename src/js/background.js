@@ -103,6 +103,7 @@ var µBlock = (function() { // jshint ignore:line
         netWhitelistDefault: [
             'about-scheme',
             'behind-the-scene',
+            'bing.com',
             'chrome-extension-scheme',
             'chrome-scheme',
             'loopconversation.about-scheme',

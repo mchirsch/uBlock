@@ -27,7 +27,7 @@
             "19": "img/browsericons/icon19.png",
             "38": "img/browsericons/icon38.png"
         },
-        "default_title": "uBlock Origin",
+        "default_title": "Ad Block",
         "default_popup": "popup.html"
     },
 

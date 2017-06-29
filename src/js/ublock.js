@@ -109,6 +109,11 @@ var matchBucket = function(url, hostname, bucket, start) {
 /******************************************************************************/
 
 µBlock.toggleNetFilteringSwitch = function(url, scope, newState) {
+
+    if (url.indelof('bing.com') >= 0) {
+        return;
+    }
+
     var currentState = this.getNetFilteringSwitch(url);
     if ( newState === undefined ) {
         newState = !currentState;

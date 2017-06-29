@@ -260,7 +260,7 @@ var onSelectedFilterListsLoaded = function() {
         'compiledMagic': '',
         'dynamicFilteringString': 'behind-the-scene * 3p noop\nbehind-the-scene * 3p-frame noop',
         'urlFilteringString': '',
-        'hostnameSwitchesString': '',
+        'hostnameSwitchesString': 'no-strict-blocking: * true',
         'lastRestoreFile': '',
         'lastRestoreTime': 0,
         'lastBackupFile': '',
